@@ -1,0 +1,14 @@
+.product {
+  border: 2px solid red;
+}
+
+.product ul {
+  list-style: none;
+}
+
+.product ul li::before {
+  content: '/2020';
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
